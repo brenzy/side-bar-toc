@@ -1,0 +1,14 @@
+// Import theming functions
+@import '~@angular/material/theming';
+
+.footer-toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+}
+
+a, a:visited {
+  color: white;
+}

@@ -1,0 +1,26 @@
+.sidenav-container {
+  position: absolute;
+  top: 70px;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+}
+
+.sidenav {
+  padding: 2rem;
+  width: 300px;
+  h2 {
+    cursor: pointer;
+  }
+  .active {
+   color: green;
+  }
+}
+
+.sidenav-content {
+  padding: 2rem;
+  height: calc(100vh - 200px);
+  p {
+    font-size: 1.2rem;
+  }
+}
